@@ -5,11 +5,80 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MartPlace | Home</title>
+  <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <h1>Hello world</h1>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <img src="images/logo.png" alt="MartPlace Logo" class="header__logo">
+        <a href="#" class="header__btn">Become a Seller</a>
+        <div class="header__nav ">
+          <button class="header__nav-btn">
+            <img class="header__nav-img" src="images/alarm.png" alt="">
+            <span class="header__badge header__badge--1">26</span>
+          </button>
+          <button class="header__nav-btn">
+            <img class="header__nav-img" src="images/envelope.png" alt="">
+            <span class="header__badge header__badge--2">6</span>
+          </button>
+          <button class="header__nav-btn">
+            <img class="header__nav-img" src="images/cart.png" alt="">
+            <span class="header__badge header__badge--3">2</span>
+          </button>
+
+
+        </div>
+        <div class="header__user">
+          <img src="images/user/35.jpg" alt="User" class="header__user-img">
+          <p class="header__user-name">Toafiq Hakim</p>
+          <p class="header__price">$20.43</p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="header__menu container">
+
+    <nav class="header__menu-nav">
+      <ul class="header__menu-list">
+        <li class="header__menu-item">
+          <a href="#" class="header__menu-link">Home</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#" class="header__menu-link">All products</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#" class="header__menu-link">Wordpress</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#" class="header__menu-link">features</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#" class="header__menu-link">pages</a>
+        </li>
+      </ul>
+    </nav>
+
+    <form action="#" class="search">
+      <input type="text" placeholder="Search product here..." class="search__input">
+      <button class="search__btn">
+        <img src="images/search-button.png" alt="Search">
+      </button>
+    </form>
+
+
+  </div>
+
+
+
+
+
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/index.js"></script>
 </body>
 
 </html>
